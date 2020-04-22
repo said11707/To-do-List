@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@600&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    
+    <title>To Do Liste</title>
+</head>
+<body>
+    <h1><span class="style">TODO</span>List</h1>
+    <div class="serch_div">
+        <input class="input" type="text" placeholder="Search To Dos">  
+    </div>
+
+    <form id="todoForm">
+        <input id="todoInput" type="text" placeholder="What will you do ?">
+        <button class="addButton" onclick="todoList()"><i class="fas fa-plus "></i></button>   
+    </form>
+
+    <ol id="todoList">
+
+    </ol>
+    <!-- <div class="container">
+        <div class="item">
+            <input type="text" class="item_input" value="" disabled>
+            <button class="editButton">EDIT</button>
+            <button class="removeButton">Remove</button>
+        </div>
+    </div> -->
+    <script src="scripte.js"></script>
+</body>
+</html>
