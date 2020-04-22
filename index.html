@@ -6,30 +6,20 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@600&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-    
-    <title>To Do Liste</title>
+    <title>Document</title>
 </head>
 <body>
     <h1><span class="style">TODO</span>List</h1>
     <div class="serch_div">
-        <input class="input" type="text" placeholder="Search To Dos">  
+        <input class="input" type="text" placeholder="What will you do ?">  
     </div>
+		<form id="todoForm">
+			<input type="text" id="todoInput" placeholder="What will you do ?">
+			<button class="addButton" type="button" onclick="todoList()"><i class="fas fa-plus "></i></button>
+		</form>
 
-    <form id="todoForm">
-        <input id="todoInput" type="text" placeholder="What will you do ?">
-        <button class="addButton" onclick="todoList()"><i class="fas fa-plus "></i></button>   
-    </form>
+        <ul id="todoList">Votre List</ul>
 
-    <ol id="todoList">
-
-    </ol>
-    <!-- <div class="container">
-        <div class="item">
-            <input type="text" class="item_input" value="" disabled>
-            <button class="editButton">EDIT</button>
-            <button class="removeButton">Remove</button>
-        </div>
-    </div> -->
-    <script src="scripte.js"></script>
+		<script src="script.js"></script>
 </body>
 </html>
